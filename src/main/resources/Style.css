@@ -1,0 +1,83 @@
+.root
+{
+	-fx-background-color:#e0ebeb;
+	-fx-font-size:13.0px;
+}
+.label
+{
+	-fx-font-size:12.0px;
+	-fx-font-weight: bold;
+	-fx-text-fill: #282828;
+}
+.button
+{
+	-fx-background-color: 
+	linear-gradient(#CDC5C5,#A9A4A4);
+}
+.button:hover
+{
+	-fx-background-color: 
+	linear-gradient(#F9EFEF,#CAC3C3);
+}
+.button:pressed
+{
+	-fx-background-color: 
+	linear-gradient(#B6B2B2, #8A8989, #B6B2B2);
+	-fx-text-fill: #282828;
+}
+.menu-bar
+{
+  -fx-background-color: linear-gradient(#F0F0F0 ,#D8D8D8);
+}
+.context-menu
+{
+     -fx-background-color: #F0F0F0;
+}
+#formTitle
+{
+	-fx-font-size:32.0px;
+	-fx-font-family:"Arial Black";
+	-fx-fill:#293d3d;
+}
+#notification
+{
+	-fx-font-size:13.0px;
+	-fx-fill: #ff0000;
+}
+#backgroundColor
+{
+	-fx-background-color:#e0ebeb;
+}
+.tableview-header-hidden .column-header-background { 
+	visibility: hidden; 
+	-fx-padding: -1.0em;
+}
+.tableSum .scroll-bar:horizontal .track{
+    -fx-padding:0px;
+	-fx-background-color:transparent;
+	-fx-border-color:transparent;
+	-fx-background-radius: 0em;
+	-fx-border-radius:2em;
+}
+
+.tableSum .scroll-bar:horizontal .increment-button ,
+.tableSum .scroll-bar:horizontal .decrement-button 
+{
+
+    -fx-background-color:transparent;
+	-fx-background-radius: 0em;
+	-fx-padding:0 0 0 0;
+}
+.tableSum  .scroll-bar:horizontal .increment-arrow,
+.tableSum  .scroll-bar:horizontal .decrement-arrow
+{
+	-fx-shape: " ";	
+	-fx-padding:0;        
+}
+.tableSum .scroll-bar:horizontal .thumb 
+{
+    -fx-background-color:transparent;
+	-fx-background-insets: 0, 0, 0;
+	-fx-background-radius: 2em;
+    -fx-padding:0px;
+}
